@@ -23,6 +23,11 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'k' => 
+        array (
+            'kartik\\markdown\\' => 16,
+            'kartik\\base\\' => 12,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -66,6 +71,14 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'kartik\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-markdown',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
@@ -77,6 +90,14 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
     );
 
     public static $prefixesPsr0 = array (
+        'M' => 
+        array (
+            'Michelf' => 
+            array (
+                0 => __DIR__ . '/..' . '/michelf/php-markdown',
+                1 => __DIR__ . '/..' . '/michelf/php-smartypants',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
